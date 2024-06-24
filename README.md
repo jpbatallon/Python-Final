@@ -232,6 +232,40 @@ git clean -f
 git clean -fd
 ```
 
+### En terminal ingresamos el comando para saber la versión de Python que tenemos instalada:
+
+```bash
+python -V
+python3 -V
+```
+
+### Creamos el entorno virtual en Python:
+
+```bash
+python3 -m venv venv
+python -m venv venv
+```
+
+### Activamos el entorno virtual:
+
+```bash
+source venv/bin/activate #Activamos el entorno virtual en Linux
+venv/scripts/activate #En windows
+```
+
+### En terminal ingresamos el comando para saber la versión de PIP que tenemos instalada:
+
+```bash
+pip -V
+```
+
+### Hacemos actualización del pip de Python
+
+```bash
+python3 -m pip install --upgrade pip
+python -m pip install --upgrade pip
+```
+
 ---
 
 ### **¿Qué es el pip y porque lo actualizamos?**
